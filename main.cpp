@@ -1,207 +1,226 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
-int main() {
-//Problem1
-    // int num1, num2, num3, num4,num5, sum;
-    // cout<<"Enter five numbers: "<<endl;
-    // cin >> num1;
-    // cin >> num2;
-    // cin >> num3;
-    // cin >> num4;
-    // cin >> num5;
-    // sum= num1+num2+num3+num4+num5;
-    // cout<<"Sum is: "<<sum<<endl;
-    // return 0;
+int main(){
+    // Problem1
+    // int x;
+    // cout << "Enter a number: " << endl;
+    // cin >> x;
+    // if (x>0) {
+    //     cout << "postive" << endl;
+    // }
+    // else {
+    //     cout << "negative" << endl;
+    // }
 
     //Problem2
-    // int Student_ID, Student_year_of_study;
-    // float Student_GPA;
-    // double Student_study_fee;
-    // cout<<"Enter Student ID : " <<endl;
-    // cin>>Student_ID;
-    // cout<<"Enter Student GPA : " <<endl;
-    // cin>>Student_GPA;
-    // cout<<"Enter Student year of study: " <<endl;
-    // cin>>Student_year_of_study;
-    // cout<<"Enter Student Study fee : " <<endl;
-    // cin>>Student_study_fee;
-    // cout<<"Student ID : "<<Student_ID<<endl;
-    // cout<<"Student GPA : "<<Student_GPA<<endl;
-    // cout<<"Student year of study: "<<Student_year_of_study<<endl;
-    // cout<<"Stduent Study fee : "<<Student_study_fee<<endl;
+    // int x;
+    // cout<<"Enter a number: " <<endl;
+    // cin>>x;
+    // if (x%2==0) {
+    //     cout<<"The number is even"<<endl;
+    // }
+    // else {
+    //     cout<<"The number is odd"<<endl;
+    // }
 
     //Problem3
-    // double celius, fahrenheit;
-    // cout << "Enter temperature in Celsius: ";
-    // cin >> celius;
-    //
-    // fahrenheit = celius * 1.8 + 32;
-    //
-    // cout << "Fahrenheit: " << fahrenheit << endl;
+    // int x, y;
+    // cout<<"Please enter a number1:";
+    // cin>>x;
+    // cout<<"Please enter a number2:";
+    // cin>>y;
+    // if (x>y) {
+    //     cout<<"Largest number is "<<x<<endl;
+    // }
+    // else  {
+    //     cout<<"Largest number is "<<y<<endl;
+    // }
 
     //Problem4
-    // double price, quantity, total;
-    // cout << "Enter price: " << endl;
-    // cin >> price;
-    // cout<<"Enter quantity: " <<endl;
-    // cin>>quantity;
-    // total = price * quantity;
-    // cout<<"Total Price: "<<total<<endl;
+    // int x, y, z;
+    // cout<<"Enter the first number: ";
+    // cin>>x;
+    // cout<<"Enter the second number: ";
+    // cin>>y;
+    // cout<<"Enter the third number: ";
+    // cin>>z;
+    // if (x>y && y>z) {
+    //     cout<<"Largest number is "<<x;
+    // }
+    // else if (y>z && x>z) {
+    //     cout<<"Largest number is "<<y;
+    // }
+    // else {
+    //     cout<<"Largest number is "<<z;
+    // }
 
     //Problem5
-    // int age1, age2, age3, age4;
-    // float average;
-    // cout << "Enter age1: ";
-    // cin >> age1;
-    // cout << "Enter age2: ";
-    // cin >> age2;
-    // cout << "Enter age3: ";
-    // cin >> age3;
-    // cout << "Enter age4: ";
-    // cin >> age4;
-    // average = (age1 + age2 + age3 + age4)/4;
-    // cout << "Average age is " << average << endl;
+    // int x;
+    // cout<<"Enter a year: " <<endl;
+    // cin>>x;
+    // if (x%4==0) {
+    //     cout<<"Leap year"<<endl;
+    // }
+    // else {
+    //     cout<<"Not a Leap year"<<endl;
+    // }
 
     //Problem6
-   //  int length, width, area, perimeter;
-   //  cout << "Enter length: " << endl;
-   //  cin >> length;
-   //  cout << "Enter width: " << endl;
-   //  cin >> width;
-   //  area = (length * width);
-   //  perimeter = 2*(length + width);
-   // cout << "Area of rectangle is " << area << endl;
-   //  cout << "Perimeter of reactangle is " << perimeter << endl;
+    // int x;
+    // cout<<"Enter a speed: " <<endl;
+    // cin>>x;
+    // if (x<20) {
+    //     cout<<"too slow"<<endl;
+    // }
+    // else if (x>80) {
+    //     cout<<"too fast"<<endl;
+    // }
+    // else {
+    //     cout<<"just rigth!"<<endl;
+    // }
 
     //Problem7
-    // int dividend, divisor, quotient, remainder;
-    // cout<< "Enter dividend: ";
-    // cin >> dividend;
-    // cout<< "Enter divisor: ";
-    // cin >> divisor;
-    // quotient = dividend / divisor;
-    // remainder = dividend % divisor;
-    // cout << "quotient = " << quotient << endl;
-    // cout << "remainder = " << remainder << endl;
-    // return 0;
+    // int x;
+    // cout<<"Enter a mark: " << endl;
+    // cin>>x;
+    // if(x>50 && x==50){
+    // cout<<"Pass"<<endl;
+    //  }
+    // else {
+    // cout<<"Fail"<<endl;}
 
     //Problem8
-    // int USD, UZS, RUBL, exchange_rate_UZS, exchange_rate_RUBL;
-    // cout << "Enter amount in USD: " << endl;
-    // cin >> USD;
-    // cout << "Enter amount in exchange rate of UZS: " << endl;
-    // cin >> exchange_rate_UZS;
-    // cout << "Enter amount in exchange rate of RUBL: " << endl;
-    // cin >> exchange_rate_RUBL;
-    // RUBL = USD * exchange_rate_RUBL;
-    // UZS = USD * exchange_rate_UZS;
-    // cout << "Equivalent amount in RUBL is " << RUBL << endl;
-    // cout << "Equivalent amount in UZS is " << UZS << endl;
+    // int x;
+    // cout<<"Enter a number: "<<endl;
+    // cin>>x;
+    // if(x>0){
+    // cout<<"positive"<<endl;}
+    // else if(x<0){
+    // cout<<"negative"<<endl;}
+    // else{
+    // cout<<"zero"<<endl;}
 
     //Problem9
-    // int radius, area;
-    // cout << "Enter the radius of the circle: ";
-    // cin >> radius;
-    // area = M_PI * radius * radius;
-    // cout << "The area of the circle is: " << area << endl;
+    // char x;
+    // cout<<"Enter Your command (g, y, r):";
+    // cin>>x;
+    // if (x=='g'){
+    // cout<<"Go!"<<endl;}
+    // else if (x=='y'){
+    // cout<<"Get ready!"<<endl;}
+    // else if (x=='r'){
+    // cout<<"Stop!"<<endl;}
+    // else{
+    // cout<<"Error!"<<endl;}
 
-    //Problem10
-    // int radius, height, volume;
-    // cout << "Enter radius: ";
-    // cin >> radius;
-    // cout << "Enter height: ";
-    // cin >> height;
-    // volume = 3.14 * radius * radius * height;
-    // cout << "The volume is: " << volume << endl;
+    //Porblem10
+    // int x;
+    // cout<<"Enter a grade(0-100):"<<endl;
+    // cin>>x;
+    // if (x>=90 && x<=100){
+    // cout<<"Grade A"<<endl;}
+    // else if (x>=80 && x<=89){
+    // cout<<"Grade B"<<endl;}
+    // else if (x>=70 && x<=79){
+    // cout<<"Grade C"<<endl;}
+    // else if (x>=60 && x<=69){
+    // cout<<"Grade D"<<endl;}
+    // else if (x>=0 && x<=59){
+    // cout<<"Grade F"<<endl;}
+    // else{
+    // cout<<"Wrong input"<<endl;}
 
-    //problem 11
-    // int distance, time;
-    // cout<<"Enter distance: " << endl;
-    // cin>>distance;
-    // cout<<"Enter time: " << endl;
-    // cin>>time;
-    // cout<<"velocity = " << (distance / time)<< "km/h" << " and " << ((distance / time) / 1.609344) << " mile/h"<< endl;
+    //Problem11
+    // int x, y;
+    // cout<<"Please enter a first number:";
+    // cin>>x;
+    // cout<<"Please enter a second number:";
+    // cin>>y;
+    // if (x%y==0){
+    // cout<<x<<" is divisible by "<<y<<endl;}
+    // else {
+    // cout<<x<<" is not divisible by "<<y<<endl;}
 
-    // problem 12
-    // int total_minuts;
-    // cout << "Enter total minutes: " << endl;
-    // cin >> total_minuts;
-    // cout << "Total time: " << total_minuts / 60 << " hours " << total_minuts % 60 << " minutes"  << endl;
+    //Problem12
+    // int x, y, z;
+    // cout<<"Please enter first angle:"<<endl;
+    // cin>>x;
+    // cout<<"Please enter second angle:"<<endl;
+    // cin>>y;
+    // cout<<"Please enter third angle:"<<endl;
+    // cin>>z;
+    // if (x+y+z==180){
+    // cout<<"The triangle is valid" << endl;}
+    // else{
+    // cout<<"The triangle is not valid"<<endl;}
 
-    // problem 13
-    // int price, cost;
-    // cout<<"Enter Price : ";
-    // cin>>price;
-    // cout<<"Enter Cost : ";
-    // cin>>cost;
-    // std::cout << "break even point: " << 10000 / (price - cost) << endl;
+    //Problem13
+    // char x;
+    // cout<<"Enter a character:"<<endl;
+    // cin>>x;
+    // if (x>='a' && x<='z'){
+    // cout<<x<<" is a lowercase letter"<<endl;}
+    // else if (x>='A' && x<='Z'){
+    // cout<<x<<" is a uppercase letter"<<endl;}
+    // else {
+    // cout<<"It is not an alphabet"<<endl;}
 
-    // problem 14
-    // int basic_salary, tax_percentage;
-    // cout << "Enter your salary: " << endl;
-    // cin >> basic_salary;
-    // cout << "Enter your tax percentage: " << endl;
-    // cin >> tax_percentage;
-    // cout << "total salary : " << basic_salary * ( 100 - tax_percentage ) / 100 << endl;
+    //Problem14
+    // double weight1, price1, weight2, price2;
+    // cout<<"Enter weight and price for first package: "<<endl;
+    // cin>>weight1>>price1;
+    // cout<<"Enter weight and price for second package: "<<endl;
+    // cin>>weight2>>price2;
+    //
+    // double cost1=price1/weight1;
+    // double cost2=price2/weight2;
+    // if (cost1<cost2){
+    // cout<<"Package 1 has better price" <<endl;}
+    // else if (cost2<cost1){
+    // cout<<"Package 2 has better price" <<endl;}
+    // else{
+    // cout<<"Two package have same price " <<endl;}
 
-    // problem 15
-    // int original_price, discount_percentage;
-    // cout << "Please enter the price of your discount percentage: " << endl;
-    // cin >> original_price;
-    // cout << "Please enter the discount percentage: " << endl;
-    // cin >> discount_percentage;
-    // cout << "discout amount: " << discount_percentage * original_price / 100 << endl;
-    // cout << "final price: " << original_price - discount_percentage * original_price / 100 << endl;
+    //Problem15
+    // int x;
+    // cout<<"Enter a three-digit integer: " <<endl;
+    // cin>>x;
+    //
+    // int firstdigit = x / 100;
+    // int lastdigit = x % 10;
+    //
+    // if (firstdigit == lastdigit){
+    // cout<<"The number is palindrome"<<endl;}
+    // else{
+    // cout<<"The number is not palindrome"<<endl;}
 
-    // problem 16
-    // double total = 0;
-    // int totalCredits = 0;
-    // for(int i=0;i<5;i++) {
-    // double grades;
-    // cin>>grades;
-    // int credits;
-    // cin>>credits;
-    // totalCredits += credits;
-    // total+=credits*grades;
-    // }
-    // cout<<total/totalCredits;
+    //Problem16
+    // int x, y;
+    // cout<<"Enter x point: " <<endl;
+    // cin>>x;
+    // cout<<"Enter y Point: " <<endl;
+    // cin>>y;
+    //
+    // double r = sqrt(x*x + y*y);
+    // if (r <= 10) {
+    // cout<<"The point is within the circle"; }
+    // else {
+    // cout<<"The point is not within the circle"; }
 
-    // problem 17
-    // double final_price, initial_price;
-    // cout << "Enter the final price: " << endl;
-    // cin >> final_price;
-    // cout << "Enter the initial price: " << endl;
-    // cin >> initial_price;
-    // cout << "inflation rate: " << ((final_price - initial_price) / initial_price) * 100 << " %" << endl;
-
-    // problem 18
-    // int original_tuition_fee, scholarship_rate;
-    // cout << "Please enter your original tuition fee: " << endl;
-    // cin >> original_tuition_fee;
-    // cout << "Please enter your scholarship rate: " << endl;
-    // cin >> scholarship_rate;
-    // cout << "scholarship amount: " << scholarship_rate * original_tuition_fee / 100 << endl;
-    // cout << "final tuition fee: " << original_tuition_fee - (scholarship_rate * original_tuition_fee / 100) << endl;
-
-    // problem 19
-    // int principal_amount, rate_of_interest, time;
-    // cout << "Enter Principal amount: " << endl;
-    // cin >> principal_amount;
-    // cout << "Enter Rate of interest: " << endl;
-    // cin >> rate_of_interest;
-    // cout << "Enter Time: " << endl;
-    // cin >> time;
-    // cout << "the simple interest: " << principal_amount * time * rate_of_interest / 100 << endl;
+    //Problem17
+    // float x;
+    // cout<<"Enter your GPA(0-4.5): " << endl;
+    // cin>>x;
+    // if (x>=4.0 && x<=.45){
+    // cout<<"You got 80% scholarship";}
+    // else if (x>=3.5 && x<4.0){
+    // cout<<"You got 60% scholarship";}
+    // else if (x>=2.5 && x<3.5){
+    // cout<<"You got 50% scholarship";}
+    // else{
+    // cout<<"You got no scholarship";}
 
 
-    // problem 20
-    // double principal, annual_rate_of_interest;
-    // cout << "Enter Principal: " << endl;
-    // cin >> principal;
-    // cout << "Enter annual rate of interest: " << endl;
-    // cin >> annual_rate_of_interest;
-    // cout << "total amount after 2 yeas: " << principal * (1 + (annual_rate_of_interest / 100)) * (1 + (annual_rate_of_interest / 100)) << endl;
-    // cout << "compound interest after 2 years: " << principal * (1 + (annual_rate_of_interest / 100)) * (1 + (annual_rate_of_interest / 100)) - principal;
-
-        return 0;
+    return 0;
 }
